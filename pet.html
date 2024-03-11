@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerenciamento de Usuários</title>
+<link rel="stylesheet" type="text/css" href="pet.css" media="screen" />
+</head>
+<body>
+
+<div class="container">
+  <h1>Matriculas para as turmas de 2024 na escola DIAS</h1>
+
+  <!-- Formulário para adicionar usuários -->
+  <div class="column">
+    <form id="formularioUsuario">
+      <input type="text" id="nomesobrenome" placeholder="Nome" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="tel" id="telefone" placeholder="Telefone" required>
+      
+      <button type="submit">Adicionar Usuário</button>
+    </form>
+  </div>
+
+  <!-- Lista de usuários -->
+  <div class="column">
+    <div id="conteudo">
+      <h2>Lista de Usuários</h2>
+      <table id="listaUsuarios">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Mensagem</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script src="dom.js"></script>
+</body>
+</html>
+
+
+
+
+

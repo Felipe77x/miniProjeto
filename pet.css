@@ -1,0 +1,82 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #007bff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.column {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+#formularioUsuario input[type="text"],
+#formularioUsuario input[type="email"],
+#formularioUsuario input[type="tel"],
+#formularioUsuario input[type="submit"] {
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#formularioUsuario input[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formularioUsuario input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#conteudo {
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#listaUsuarios {
+  list-style: none;
+  padding: 0;
+}
+
+#listaUsuarios li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+#listaUsuarios button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#listaUsuarios button.editar {
+  background-color: #ffc107;
+}
